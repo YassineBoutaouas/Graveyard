@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8782b6ad50d7b149a2d5629aa0b6978, type: 3}
+  m_Name: PlayerJump
+  m_EditorClassIdentifier: 
+  AbilityName: Jump
+  ExecutionAmount: 1
+  DelayTime: 0
+  ExecutionTime: 0.15
+  CoolDownTime: 0
+  CanInterrupt: 1
+  IsEnabled: 1
+  JumpForce: 8
+  LowJumpMultiplier: 6
+  JumpInputTime: 0.2
+  GroundedTime: 0.2

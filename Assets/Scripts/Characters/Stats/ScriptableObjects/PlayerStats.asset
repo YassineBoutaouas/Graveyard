@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 428c9587c4a15814e88a1ad963ae0990, type: 3}
+  m_Name: PlayerStats
+  m_EditorClassIdentifier: 
+  Name: Johann Sebastian Bach
+  Description: Great musician, died long ago, teaching them youngens what real music
+    is like!
+  Drag: 0
+  Weight: 1
+  MovementSpeed: 7
+  TurningSpeed: 15
+  SpeedMultiplier: 1
+  GroundAcceleration: 15
+  GroundDeceleration: 45
+  InAirAcceleration: 15
+  InAirDeceleration: 40
+  MaxHealth: 100
+  CurrentHealth: 100
+  CurrentHealthMultiplier: 1
+  CurrentMaxHealthMultiplier: 1
+  StunResistance: 0
+  CurrentStun: 0
+  CurrentStunMultiplier: 0
+  StunResistanceMultiplier: 0
+  BadHitStrength: 0
+  GoodHitStrength: 30
+  PerfectHitStrength: 30
+  StrengthMultiplier: 1

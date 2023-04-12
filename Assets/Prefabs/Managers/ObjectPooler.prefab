@@ -1,0 +1,313 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8486080502861950449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 670684143864816822}
+  m_Layer: 0
+  m_Name: BeatDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &670684143864816822
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8486080502861950449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8678635402917635710}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8678635402084510559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8678635402084510560}
+  m_Layer: 0
+  m_Name: Projectiles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8678635402084510560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678635402084510559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8678635402917635710}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8678635402660987842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8678635402660987843}
+  m_Layer: 0
+  m_Name: HitParticles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8678635402660987843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678635402660987842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8678635402917635710}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8678635402917635709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8678635402917635710}
+  - component: {fileID: 8678635402917635711}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8678635402917635710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678635402917635709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8678635402084510560}
+  - {fileID: 8678635402660987843}
+  - {fileID: 670684143864816822}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8678635402917635711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678635402917635709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f9c7b4bf172bf54d8f43dfb8a00fda4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PoolsList:
+  - Tag: ProjectileNote
+    Prefab: {fileID: 2650933423841025300, guid: 224857c3552481747af5c4f58d48f2fe, type: 3}
+    PoolParent: {fileID: 8678635402084510560}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: BigProjectileNote
+    Prefab: {fileID: 8876414773554518953, guid: 7f10cb25019e2b24eafe617d89a52e0a, type: 3}
+    PoolParent: {fileID: 8678635402084510560}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: AOENote
+    Prefab: {fileID: 3196466625369376864, guid: b2b6655a5fd02954d836bf9659f88063, type: 3}
+    PoolParent: {fileID: 8678635402084510560}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: Bad-Hit_Impact
+    Prefab: {fileID: 4522277671991425025, guid: fda96847f7e10704faefd53cf13a6022, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: Good-Hit_Impact
+    Prefab: {fileID: 4984885868799165099, guid: 8e07bef3d8e66c24982e958fea881dda, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: Perfect-Hit_Impact
+    Prefab: {fileID: 217094220863726869, guid: 65ec412c60825f74a8b29ec9306f1c74, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: Note-Hit_Impact
+    Prefab: {fileID: 7827614505887828513, guid: 8f322365ae092f14cac540909d13a2cd, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 5
+  - Tag: Bone_Beat_Indication
+    Prefab: {fileID: 1948372278854118053, guid: 9f0819d3bb88bb94aa1fa670753b11cb, type: 3}
+    PoolParent: {fileID: 670684143864816822}
+    PoolSize: 6
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: Jump_Up
+    Prefab: {fileID: 1173262663564242, guid: f81ea73a47d926143906b9d543948dc0, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 1
+  - Tag: Jump_Land
+    Prefab: {fileID: 1698068915230344, guid: 05f7c156786bd024e8da3bb1a4b8aa09, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 1
+  - Tag: Step_Dust
+    Prefab: {fileID: 1878560746460868, guid: 2397083e876e5b1408fcc1333f50c082, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 20
+    HasSleepTime: 1
+    SleepTime: 1
+  - Tag: Sprint_Dust
+    Prefab: {fileID: 1265918065024166, guid: 414f21f548178584899720a59520163e, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: Ground_Dodge
+    Prefab: {fileID: 5414882334346705414, guid: 22f584320d364e0459f4d213e68c4ba2, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 1
+    SleepTime: 3
+  - Tag: Ground_Dodge_Out
+    Prefab: {fileID: 7392773237394650584, guid: 2d84ca9006571ba44be5ef23bf467ea9, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 1
+    SleepTime: 3
+  - Tag: Stunned_Stars
+    Prefab: {fileID: 1380238739168988, guid: e35f4911d07c78949bd6fcee2e707765, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: Alert
+    Prefab: {fileID: 4153373682676606151, guid: 740fdf886cdba7a48a2229d67943add3, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 1
+    SleepTime: 2
+  - Tag: FX_Recovery
+    Prefab: {fileID: 7357661940180564446, guid: f92f489bff6945b4f81e2a7ecd6dc35a, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: FX_Heal
+    Prefab: {fileID: 1347246195107686703, guid: 1d8f53f95ade96a459295dc18db5fc23, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 5
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: FX_Recovery_Notes
+    Prefab: {fileID: 9020333877882029324, guid: 5b1e6efba0ad0fd48b189109087329d4, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 10
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: FX_Star_Stun_OneShot
+    Prefab: {fileID: 1334071670866236, guid: edf12e91890b8434eb8ea701f9bc40a2, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 1
+    SleepTime: 2
+  - Tag: FX_AttackingAnticipation
+    Prefab: {fileID: 4153373682676606151, guid: 9cdce09bc4c8a2a41ab04ce5d7710d0d, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: FX_Shockwave
+    Prefab: {fileID: 1166822239730492, guid: 5f60118b5f8da3c49824d95f661f4520, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: BottleIndicator
+    Prefab: {fileID: 1378265412419956219, guid: 74dba4367d7f3bc43ba88dc42436c8e9, type: 3}
+    PoolParent: {fileID: 8678635402084510560}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: Bottle
+    Prefab: {fileID: 1757081249284640567, guid: fa85debbfc163c349a9089042f915585, type: 3}
+    PoolParent: {fileID: 8678635402084510560}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: BottleImpact
+    Prefab: {fileID: 1481227273125235939, guid: c8876f5005491994f87c73a20802bb65, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: BlockingParticles
+    Prefab: {fileID: 1778287137939657128, guid: 83ebf378169acec4bb04d9d6288fa9c7, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 1
+    SleepTime: 2
+  - Tag: BlockBreakParticles
+    Prefab: {fileID: 7364453406569023085, guid: efbe233853b4a614eb1b75b83751fcde, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 0
+    SleepTime: 0
+  - Tag: FX_Vanish
+    Prefab: {fileID: 4520500423401744533, guid: d645b045ed2077a4897766c632b926b5, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 1
+    SleepTime: 3
+  - Tag: FX_Appear
+    Prefab: {fileID: 8175239762636599099, guid: 072ac521fb62bb3419a2cfd61e8f2087, type: 3}
+    PoolParent: {fileID: 8678635402660987843}
+    PoolSize: 8
+    HasSleepTime: 1
+    SleepTime: 3

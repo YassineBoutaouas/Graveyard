@@ -1,0 +1,178 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &759840514482409138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759840514482409139}
+  - component: {fileID: 759840514482409137}
+  - component: {fileID: 5155796349042081868}
+  m_Layer: 0
+  m_Name: AudioSpectrumManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759840514482409139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759840514482409138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &759840514482409137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759840514482409138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c9416b0695dde6489f7b64f24c53297, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentAudioClipName: RhythmTrack
+  BeatsPerMinute: 117
+  SpectrumMultiplier: 100
+  SpectrumResolution: 256
+  fftWindow: 2
+  Bias: 10
+  TimeStep: 0.3
+  RestingTime: 0.512
+  RestingCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -0.03261108
+      outSlope: -0.03261108
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.0540817
+    - serializedVersion: 3
+      time: 0.3
+      value: 0
+      inSlope: -0
+      outSlope: -0.0913828
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.12643418
+    - serializedVersion: 3
+      time: 0.7
+      value: 1
+      inSlope: 7.0624013
+      outSlope: -10.202848
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.018110275
+      outWeight: 0.03730774
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0.012267658
+      outSlope: 0.012267658
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.1752907
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  CurrentBeatEvaluation: 2
+  PerformanceThreshholds:
+  - 0.8
+  - 0.6
+  _currentBeatValue: 0
+--- !u!114 &5155796349042081868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759840514482409138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 345e290e47f228f4cbeb0b87bbdb6c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - SoundType: 1
+    Name: SoundTrack
+    Clip: {fileID: 8300000, guid: e296606af9249824f8f3da02279d63a0, type: 3}
+    IsMuted: 0
+    IsLooped: 1
+    PlayOnAwake: 1
+    Volume: 0.143
+    Pitch: 1
+    StereoPan: 0
+    SpatialBlend: 0
+    DopplerLevel: 0
+    Spread: 0
+    AudioRolloff: 0
+    MinDistance: 0
+    MaxDistance: 0
+    Source: {fileID: 0}
+  - SoundType: 0
+    Name: BeatImpact
+    Clip: {fileID: 8300000, guid: 660d07f8fcfba1b419856358b522501b, type: 3}
+    IsMuted: 0
+    IsLooped: 0
+    PlayOnAwake: 0
+    Volume: 1
+    Pitch: 1
+    StereoPan: 0
+    SpatialBlend: 0
+    DopplerLevel: 0
+    Spread: 0
+    AudioRolloff: 0
+    MinDistance: 0
+    MaxDistance: 0
+    Source: {fileID: 0}
+  - SoundType: 0
+    Name: Crickets
+    Clip: {fileID: 8300000, guid: 3b8b5f86df46cd945a3e903d2ddf1b81, type: 3}
+    IsMuted: 0
+    IsLooped: 0
+    PlayOnAwake: 0
+    Volume: 0.11
+    Pitch: 1
+    StereoPan: 0
+    SpatialBlend: 0
+    DopplerLevel: 0
+    Spread: 0
+    AudioRolloff: 0
+    MinDistance: 0
+    MaxDistance: 0
+    Source: {fileID: 0}
+  - SoundType: 0
+    Name: Crowd
+    Clip: {fileID: 8300000, guid: 819446ad45716c9488abc3873700d549, type: 3}
+    IsMuted: 0
+    IsLooped: 0
+    PlayOnAwake: 0
+    Volume: 0.3
+    Pitch: 1
+    StereoPan: 0
+    SpatialBlend: 0
+    DopplerLevel: 0
+    Spread: 0
+    AudioRolloff: 0
+    MinDistance: 0
+    MaxDistance: 0
+    Source: {fileID: 0}
