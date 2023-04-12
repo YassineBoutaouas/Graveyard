@@ -15,7 +15,7 @@ The project can be build through the [Unity build settings](https://docs.unity3d
 
 **Required Scenes**
 - 01_MainMenu ................0
-- 02_LoadingScreen...........1
+- 02_LoadingScreen.........1
 - 03_MainGame.................2
 
 **Windows**
