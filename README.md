@@ -15,7 +15,7 @@ The project can be build through the [Unity build settings](https://docs.unity3d
 
 **Required Scenes**
 - 01_MainMenu ................0
-- 02_LoadingScreen............1
+- 02_LoadingScreen...........1
 - 03_MainGame.................2
 
 **Windows**
@@ -34,7 +34,7 @@ The project can be build through the [Unity build settings](https://docs.unity3d
 - A full control scheme can be found in the main menu/settings/controls and the pause menu/settings/controls
 
 ### Primary gameplay systems, most important directories
-- Audio Detection systems ......../Assets/Scripts/AudioDetection/AudioSpectrumManager.cs
+- Audio Detection systems .../Assets/Scripts/AudioDetection/AudioSpectrumManager.cs
 - Character controller systems .../Assets/Scripts/Characters
-- Ability management ............./Assets/Scripts/Abilities
-- Enemy AI ......................./Assets/Scripts/StateMachines
+- Ability management .../Assets/Scripts/Abilities
+- Enemy AI .../Assets/Scripts/StateMachines
