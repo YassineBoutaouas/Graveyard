@@ -1,9 +1,9 @@
 #
 # (G)raveyard
-Semester Project (Feb 2022) - 3rd person action game - rhythm based combat
-Team: Game Direction - 1, Development team - 4, Sound team - 2
-Development time: 3 months
-Target platforms: Windows, Mac (build not provided)
+- Semester Project (Feb 2022) - 3rd person action game - rhythm based combat
+- Team: Game Direction - 1, Development team - 4, Sound team - 2
+- Development time: 3 months
+- Target platforms: Windows, Mac (build not provided)
 
 ## About
 The project contains third party assets and is therefore not for commercial use.
