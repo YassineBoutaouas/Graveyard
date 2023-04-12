@@ -14,9 +14,9 @@ The official project documentation can be found [here](https://ag.mediencampus.h
 The project can be build through the [Unity build settings](https://docs.unity3d.com/Manual/BuildSettings.html). No further setup needed.
 
 **Required Scenes**
-01_MainMenu ................0
-02_LoadingScreen............1
-03_MainGame.................2
+- 01_MainMenu ................0
+- 02_LoadingScreen............1
+- 03_MainGame.................2
 
 **Windows**
 - You can download the build as .zip from [here](https://drive.google.com/file/d/1bzefD9Ny1B7jrw_80UMpbB7UpQsgcsMD/view).
@@ -34,7 +34,7 @@ The project can be build through the [Unity build settings](https://docs.unity3d
 - A full control scheme can be found in the main menu/settings/controls and the pause menu/settings/controls
 
 ### Primary gameplay systems, most important directories
-Audio Detection systems ......../Assets/Scripts/AudioDetection/AudioSpectrumManager.cs
-Character controller systems .../Assets/Scripts/Characters
-Ability management ............./Assets/Scripts/Abilities
-Enemy AI ......................./Assets/Scripts/StateMachines
+- Audio Detection systems ......../Assets/Scripts/AudioDetection/AudioSpectrumManager.cs
+- Character controller systems .../Assets/Scripts/Characters
+- Ability management ............./Assets/Scripts/Abilities
+- Enemy AI ......................./Assets/Scripts/StateMachines
