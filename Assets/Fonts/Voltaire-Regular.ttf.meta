@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bdc6e90e24b606745a3400cb628ebc3f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Voltaire
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0ce4b1ff273ee154bb873b3e4c30c55d, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
